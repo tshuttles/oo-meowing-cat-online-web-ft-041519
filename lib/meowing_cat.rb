@@ -4,9 +4,6 @@ class Cat
     @cat
   end  
   
-  def name=(name)
-    @cat = "Kitty" 
-  end 
   
   attr_accessor :cat 
   

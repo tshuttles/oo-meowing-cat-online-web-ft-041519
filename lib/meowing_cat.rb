@@ -4,10 +4,15 @@ class Cat
     @cat
   end  
   
+  def name=(name)
+    @cat = name 
+  end 
+  
+  def meow
+    @cat = "meow"
+  end 
+  
   attr_accessor :cat 
-  kitty = Cat.new 
-  kitty.cat = "Kitty" 
-  kitty.cat 
-
-
+  name= 
+  meow 
 end 

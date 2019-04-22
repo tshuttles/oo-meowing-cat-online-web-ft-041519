@@ -9,5 +9,5 @@ class Cat
   end 
   
   attr_accessor :cat 
-  @cat.name=
+  @cat.name
 end 

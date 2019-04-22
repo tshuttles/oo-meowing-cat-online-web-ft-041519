@@ -1,7 +1,7 @@
 ## code your solution here. 
 class Cat 
   attr_accessor :cat 
-  def name
+  def name=(name)
     @cat = "Kitty"
   end 
   def meow 
